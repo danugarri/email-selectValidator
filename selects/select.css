@@ -1,0 +1,34 @@
+form{
+    display:flex;
+    flex-direction: row;
+    background-color: azure;
+    margin: 50px auto;
+    width: fit-content;
+    padding: 10px;
+    border: 1px solid black
+}
+
+select{
+     display: block;
+     margin:10px;
+     cursor:pointer;
+}
+
+input[type=submit]{
+   height:50px;
+   cursor:pointer;
+   background-color: rgb(17, 194, 46);
+   margin: auto 20px;
+}
+footer{
+    text-align: center;
+    background-color: azure;
+    height:30px;
+    border-bottom: 5px solid black;
+}
+a{
+    text-decoration: none;
+}
+button{
+    background-color: coral;
+}

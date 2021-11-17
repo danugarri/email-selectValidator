@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="select.css"/>
+    <title>select</title>
+</head>
+<body>
+      <form id="selectForm">
+            <section>
+                <label> Selecciona una provincia</label>
+              <select id="select1">
+                    <option value="provincia" selected id="provincia">provincia</option>
+                    <option value="madrid">Madrid</option>
+                    <option value="barcelona">Barcelona</option>
+                    <option value="valencia">Valencia</option>
+                </select>
+                <label> Selecciona una ciudad</label>
+                <select id="select2">
+                    <option value="ciudad" selected id="city">Ciudad</option>
+                    <option value="madrid" id="option1"></option>
+                    <option value="barcelona" id="option2"></option>
+                    <option value="valencia" id=option3></option>
+                </select>
+            </section>
+        <input type="submit" value ="validar"/>
+    </form>
+    <footer>
+        <button><a href="../index.html">logout</a></button>
+    </footer>
+    <script type ="module" src="select.js"></script>
+</body>
+</html>
